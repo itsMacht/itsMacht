@@ -1,30 +1,62 @@
 # Hi, I'm Macht 👋
 
-## Data Analyst | Power BI • Excel • DAX • Data Modeling
+## Data Analyst & Analytics Product Builder
 
-I turn recurring operational data into clear, refreshable reporting for business teams. My work focuses on data cleaning, KPI design, dimensional modeling, dashboard development, and reliable weekly reporting workflows.
+I build operational analytics systems that move beyond a static dashboard: data collection, validation, business rules, databases, reporting interfaces, exports, and repeatable workflows.
 
-## Featured projects
+My strongest work combines data analysis with practical product development for retail intelligence and field operations.
 
-### [Retail Performance Intelligence](https://github.com/itsMacht/retail-performance-intelligence)
+## Flagship projects
 
-End-to-end retail reporting case study using synthetic weekly sales, stock, achievement, target, RRP, and RM data.
+### [MarketSignal — Retail Intelligence Platform](https://github.com/itsMacht/MarketSignal-Retail-Intelligence)
 
-**Highlights:** data-quality controls, weekly refresh design, commercial KPIs, stock analysis, DAX measures, and an executive dashboard.
+![MarketSignal dashboard using clearly labelled synthetic portfolio data](marketsignal-dashboard.png)
 
-### [Promoter Workforce Analytics](https://github.com/itsMacht/promoter-workforce-analytics)
+A **B2B retail-intelligence SaaS platform prototype** for monitoring public retailer, leaflet, brand-website, and social activity.
 
-Workforce monitoring case study using synthetic planning, check-in/out, target, and achievement data.
+**What it includes:**
 
-**Highlights:** attendance rules, punctuality and worked-hours logic, dimensional modeling, DAX, exception reporting, and management dashboards.
+- Automated, source-specific public-data collection with respectful crawl controls
+- Retail prices, promotions, launches, campaigns, availability, and competitor activity
+- PostgreSQL/Supabase data model with historical changes and evidence storage
+- Data-quality gates, confidence scoring, manual review, and immutable audit history
+- KPI dashboards, market activity, share of voice, retailer coverage, and price analysis
+- CSV, HTML, PowerPoint, and weekly leaflet reporting workflows
+- Scheduled GitHub Actions collection and server-side API routes
 
-## Core toolkit
+**Stack:** Next.js, React, TypeScript, PostgreSQL, Supabase, Crawlee, Playwright, Apify, PowerPoint generation, and GitHub Actions.
 
-- **Power BI:** dashboard design, DAX, data modeling, drill-down analysis
-- **Excel:** cleaning, validation, reconciliation, recurring weekly reporting
-- **Analytics:** KPI definition, trend analysis, exception monitoring, stakeholder reporting
-- **Data responsibility:** privacy-aware portfolio projects built with synthetic data
+> The screenshot is rendered by the real application interface with browser-only synthetic demonstration records. It does not contain production metrics.
 
-## Current focus
+### [Cheil MX Attendance — Field Workforce Operations Platform](https://github.com/itsMacht/Cheil-MX-Attendance)
 
-Building practical analytics projects that show the complete path from messy operational inputs to decision-ready dashboards.
+![Attendance Intelligence analyst dashboard](cheil-attendance-dashboard.png)
+
+A **B2B internal workforce-operations platform** connecting an Android promoter app with a secure analyst dashboard.
+
+**What it includes:**
+
+- Guided promoter account and store assignment
+- Camera and GPS-supported check-in/check-out evidence
+- Offline-safe mobile queue and automatic cloud synchronization
+- Shift pairing, duration, lateness, missing-event, and location-verification rules
+- Weekly, monthly, store, and promoter filters
+- Attendance KPIs, daily volume, store completion ranking, and detailed records
+- Excel workbooks with embedded evidence and CSV exports for Power BI
+- Supabase authentication, row-level access, private storage, and signed evidence links
+
+**Stack:** React, TypeScript, Vite, Capacitor, Android, Supabase, ExcelJS, GPS, camera integration, and offline storage.
+
+> This is best described as a SaaS-style internal platform—not a commercial SaaS business—because it currently targets one organization and does not implement multi-tenant subscriptions or billing.
+
+## Analytics capabilities
+
+- Power BI, DAX, dimensional modeling, dashboard design, and drill-down analysis
+- Excel cleaning, validation, reconciliation, and recurring weekly reporting
+- KPI design, exception monitoring, attendance analytics, and retail intelligence
+- SQL/PostgreSQL data modeling, API-backed reporting, and automated refresh workflows
+- Privacy-aware portfolio presentation using sanitized or synthetic demonstration data
+
+## Product perspective
+
+I focus on the complete decision workflow: how data is captured, cleaned, trusted, modeled, reviewed, visualized, and delivered to the people who need to act on it.
