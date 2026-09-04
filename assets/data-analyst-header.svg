@@ -1,31 +1,77 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="Macht — Data Analyst, BI Developer, Analytics Product Builder">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">Macht — Data Analyst and BI Developer</title>
+  <desc id="desc">A restrained animated portfolio header with an analytical signal chart.</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#061326"/><stop offset="0.55" stop-color="#0a2446"/><stop offset="1" stop-color="#102f56"/></linearGradient>
-    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#3dd9c5"/><stop offset="1" stop-color="#4f8cff"/></linearGradient>
-    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="5" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#8db9e8" stroke-opacity=".08"/></pattern>
-    <clipPath id="chartClip"><rect x="730" y="55" width="400" height="220" rx="20"/></clipPath>
+    <clipPath id="frame"><rect width="1200" height="300" rx="14"/></clipPath>
+    <style>
+      .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+      .mono { font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace; }
+      @media (prefers-reduced-motion: reduce) { .motion { display: none; } }
+    </style>
   </defs>
-  <rect width="1200" height="320" rx="24" fill="url(#bg)"/><rect width="1200" height="320" rx="24" fill="url(#grid)"/>
-  <circle cx="1090" cy="30" r="210" fill="#287cff" opacity=".08"><animate attributeName="r" values="190;225;190" dur="7s" repeatCount="indefinite"/></circle>
-  <circle cx="720" cy="320" r="150" fill="#31d6bb" opacity=".05"><animate attributeName="opacity" values=".03;.09;.03" dur="5s" repeatCount="indefinite"/></circle>
-  <g font-family="Inter,Segoe UI,Arial,sans-serif">
-    <text x="70" y="92" fill="#7ee6d7" font-size="14" font-weight="700" letter-spacing="4">DATA • BUSINESS INTELLIGENCE • AUTOMATION</text>
-    <text x="68" y="164" fill="#ffffff" font-size="62" font-weight="800" letter-spacing="1">MACHT</text>
-    <text x="72" y="207" fill="#c9ddf4" font-size="21" font-weight="600">Data Analyst  |  BI Developer  |  Analytics Product Builder</text>
-    <text x="72" y="250" fill="#88a7c9" font-size="16">Excel → Power BI → DAX → SQL → Decision Systems</text>
-    <rect x="70" y="271" width="210" height="3" rx="2" fill="url(#line)"><animate attributeName="width" values="80;260;210;80" dur="6s" repeatCount="indefinite"/></rect>
-  </g>
-  <g clip-path="url(#chartClip)">
-    <rect x="730" y="55" width="400" height="220" rx="20" fill="#ffffff" opacity=".045" stroke="#c7e2ff" stroke-opacity=".15"/>
-    <g opacity=".22" stroke="#a8caec"><path d="M760 95H1100M760 145H1100M760 195H1100M760 245H1100"/></g>
-    <g fill="#2f78ed">
-      <rect x="780" y="205" width="36" height="40" rx="6"><animate attributeName="y" values="205;168;205" dur="3.8s" repeatCount="indefinite"/><animate attributeName="height" values="40;77;40" dur="3.8s" repeatCount="indefinite"/></rect>
-      <rect x="840" y="175" width="36" height="70" rx="6"><animate attributeName="y" values="175;130;175" dur="4.6s" repeatCount="indefinite"/><animate attributeName="height" values="70;115;70" dur="4.6s" repeatCount="indefinite"/></rect>
-      <rect x="900" y="145" width="36" height="100" rx="6"><animate attributeName="y" values="145;182;145" dur="4.1s" repeatCount="indefinite"/><animate attributeName="height" values="100;63;100" dur="4.1s" repeatCount="indefinite"/></rect>
-      <rect x="960" y="115" width="36" height="130" rx="6"><animate attributeName="y" values="115;88;115" dur="5.2s" repeatCount="indefinite"/><animate attributeName="height" values="130;157;130" dur="5.2s" repeatCount="indefinite"/></rect>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="300" fill="#0b0e13"/>
+    <path d="M0 48H1200M0 252H1200M674 48V252" fill="none" stroke="#ffffff" stroke-opacity=".10"/>
+    <path d="M24 0V300M1176 0V300" fill="none" stroke="#ffffff" stroke-opacity=".06"/>
+
+    <g class="mono" fill="#8d96a5" font-size="11" letter-spacing="1.7">
+      <text x="40" y="30">PORTFOLIO / 2026</text>
+      <text x="1160" y="30" text-anchor="end">CASABLANCA · MA</text>
     </g>
-    <path d="M770 204 C830 190 850 128 910 156 S1010 112 1090 92" fill="none" stroke="url(#line)" stroke-width="5" stroke-linecap="round" filter="url(#glow)" stroke-dasharray="520" stroke-dashoffset="520"><animate attributeName="stroke-dashoffset" values="520;0;0" keyTimes="0;.65;1" dur="5s" repeatCount="indefinite"/></path>
-    <g fill="#78ead8" filter="url(#glow)"><circle cx="770" cy="204" r="5"/><circle cx="910" cy="156" r="5"/><circle cx="1090" cy="92" r="5"/></g>
+
+    <g class="sans">
+      <text x="58" y="106" fill="#9dbbff" font-size="15" font-weight="600" letter-spacing="2.4">DATA ANALYST · BI DEVELOPER</text>
+      <text x="54" y="176" fill="#f3f0e8" font-size="64" font-weight="600" letter-spacing="-2.2">Macht</text>
+      <text x="58" y="216" fill="#aab1bc" font-size="18" font-weight="400" letter-spacing=".15">Operational data into clear, trusted decisions.</text>
+    </g>
+
+    <g class="mono" font-size="11" letter-spacing="1.2">
+      <text x="58" y="275" fill="#657080">EXCEL</text>
+      <text x="126" y="275" fill="#3e4652">/</text>
+      <text x="149" y="275" fill="#657080">POWER BI</text>
+      <text x="240" y="275" fill="#3e4652">/</text>
+      <text x="263" y="275" fill="#657080">DAX</text>
+      <text x="307" y="275" fill="#3e4652">/</text>
+      <text x="330" y="275" fill="#657080">SQL</text>
+      <text x="374" y="275" fill="#3e4652">/</text>
+      <text x="397" y="275" fill="#657080">DATA MODELING</text>
+    </g>
+
+    <g transform="translate(714 75)">
+      <g class="mono" font-size="10" letter-spacing="1.4">
+        <text x="0" y="0" fill="#727b89">WEEKLY SIGNAL</text>
+        <text x="426" y="0" fill="#727b89" text-anchor="end">W36</text>
+      </g>
+
+      <g transform="translate(0 25)">
+        <path d="M0 30H426M0 80H426M0 130H426" fill="none" stroke="#ffffff" stroke-opacity=".08"/>
+        <path d="M0 130L53 121L106 124L159 88L213 96L266 61L319 70L372 29L426 39" fill="none" stroke="#d9e2f5" stroke-opacity=".35" stroke-width="1.5"/>
+        <path d="M0 130L53 121L106 124L159 88L213 96L266 61L319 70L372 29L426 39" fill="none" stroke="#9dbbff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="610" stroke-dashoffset="610">
+          <animate attributeName="stroke-dashoffset" values="610;0;0" keyTimes="0;.55;1" dur="7s" repeatCount="indefinite"/>
+        </path>
+        <circle class="motion" r="4" fill="#f3f0e8">
+          <animateMotion path="M0 130L53 121L106 124L159 88L213 96L266 61L319 70L372 29L426 39" dur="7s" repeatCount="indefinite" keyPoints="0;1;1" keyTimes="0;.55;1" calcMode="linear"/>
+        </circle>
+        <g fill="#0b0e13" stroke="#9dbbff" stroke-width="1.5">
+          <circle cx="0" cy="130" r="3"/><circle cx="159" cy="88" r="3"/><circle cx="266" cy="61" r="3"/><circle cx="426" cy="39" r="3"/>
+        </g>
+      </g>
+
+      <g class="mono" transform="translate(0 166)" font-size="10" letter-spacing="1.1">
+        <text x="0" y="0" fill="#596372">RAW</text>
+        <text x="57" y="0" fill="#3e4652">→</text>
+        <text x="89" y="0" fill="#596372">CLEAN</text>
+        <text x="164" y="0" fill="#3e4652">→</text>
+        <text x="196" y="0" fill="#596372">MODEL</text>
+        <text x="271" y="0" fill="#3e4652">→</text>
+        <text x="303" y="0" fill="#9dbbff">DECIDE</text>
+      </g>
+    </g>
+
+    <rect class="motion" x="674" y="48" width="1" height="204" fill="#9dbbff" opacity="0">
+      <animate attributeName="opacity" values="0;.7;0" dur="5s" repeatCount="indefinite"/>
+    </rect>
   </g>
+  <rect x=".5" y=".5" width="1199" height="299" rx="13.5" fill="none" stroke="#ffffff" stroke-opacity=".13"/>
 </svg>
