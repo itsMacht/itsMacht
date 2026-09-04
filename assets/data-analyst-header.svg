@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="Macht — Data Analyst, BI Developer, Analytics Product Builder">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#061326"/><stop offset="0.55" stop-color="#0a2446"/><stop offset="1" stop-color="#102f56"/></linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#3dd9c5"/><stop offset="1" stop-color="#4f8cff"/></linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="5" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#8db9e8" stroke-opacity=".08"/></pattern>
+    <clipPath id="chartClip"><rect x="730" y="55" width="400" height="220" rx="20"/></clipPath>
+  </defs>
+  <rect width="1200" height="320" rx="24" fill="url(#bg)"/><rect width="1200" height="320" rx="24" fill="url(#grid)"/>
+  <circle cx="1090" cy="30" r="210" fill="#287cff" opacity=".08"><animate attributeName="r" values="190;225;190" dur="7s" repeatCount="indefinite"/></circle>
+  <circle cx="720" cy="320" r="150" fill="#31d6bb" opacity=".05"><animate attributeName="opacity" values=".03;.09;.03" dur="5s" repeatCount="indefinite"/></circle>
+  <g font-family="Inter,Segoe UI,Arial,sans-serif">
+    <text x="70" y="92" fill="#7ee6d7" font-size="14" font-weight="700" letter-spacing="4">DATA • BUSINESS INTELLIGENCE • AUTOMATION</text>
+    <text x="68" y="164" fill="#ffffff" font-size="62" font-weight="800" letter-spacing="1">MACHT</text>
+    <text x="72" y="207" fill="#c9ddf4" font-size="21" font-weight="600">Data Analyst  |  BI Developer  |  Analytics Product Builder</text>
+    <text x="72" y="250" fill="#88a7c9" font-size="16">Excel → Power BI → DAX → SQL → Decision Systems</text>
+    <rect x="70" y="271" width="210" height="3" rx="2" fill="url(#line)"><animate attributeName="width" values="80;260;210;80" dur="6s" repeatCount="indefinite"/></rect>
+  </g>
+  <g clip-path="url(#chartClip)">
+    <rect x="730" y="55" width="400" height="220" rx="20" fill="#ffffff" opacity=".045" stroke="#c7e2ff" stroke-opacity=".15"/>
+    <g opacity=".22" stroke="#a8caec"><path d="M760 95H1100M760 145H1100M760 195H1100M760 245H1100"/></g>
+    <g fill="#2f78ed">
+      <rect x="780" y="205" width="36" height="40" rx="6"><animate attributeName="y" values="205;168;205" dur="3.8s" repeatCount="indefinite"/><animate attributeName="height" values="40;77;40" dur="3.8s" repeatCount="indefinite"/></rect>
+      <rect x="840" y="175" width="36" height="70" rx="6"><animate attributeName="y" values="175;130;175" dur="4.6s" repeatCount="indefinite"/><animate attributeName="height" values="70;115;70" dur="4.6s" repeatCount="indefinite"/></rect>
+      <rect x="900" y="145" width="36" height="100" rx="6"><animate attributeName="y" values="145;182;145" dur="4.1s" repeatCount="indefinite"/><animate attributeName="height" values="100;63;100" dur="4.1s" repeatCount="indefinite"/></rect>
+      <rect x="960" y="115" width="36" height="130" rx="6"><animate attributeName="y" values="115;88;115" dur="5.2s" repeatCount="indefinite"/><animate attributeName="height" values="130;157;130" dur="5.2s" repeatCount="indefinite"/></rect>
+    </g>
+    <path d="M770 204 C830 190 850 128 910 156 S1010 112 1090 92" fill="none" stroke="url(#line)" stroke-width="5" stroke-linecap="round" filter="url(#glow)" stroke-dasharray="520" stroke-dashoffset="520"><animate attributeName="stroke-dashoffset" values="520;0;0" keyTimes="0;.65;1" dur="5s" repeatCount="indefinite"/></path>
+    <g fill="#78ead8" filter="url(#glow)"><circle cx="770" cy="204" r="5"/><circle cx="910" cy="156" r="5"/><circle cx="1090" cy="92" r="5"/></g>
+  </g>
+</svg>

@@ -1,62 +1,43 @@
-# Hi, I'm Macht 👋
+![Animated Data Analyst header](assets/data-analyst-header.svg)
 
-## Data Analyst & Analytics Product Builder
+## About me
 
-I build operational analytics systems that move beyond a static dashboard: data collection, validation, business rules, databases, reporting interfaces, exports, and repeatable workflows.
+I'm a **Data Analyst and BI Developer** who turns recurring operational data into decision-ready systems. My work combines Excel cleaning, Power BI, DAX, dimensional modeling, KPI design, SQL, automation, and practical analytics product development.
 
-My strongest work combines data analysis with practical product development for retail intelligence and field operations.
+I focus on the full path from raw weekly files to trusted reporting: **collect → clean → validate → model → analyze → visualize → refresh**.
 
-## Flagship projects
+## Core toolkit
 
-### [MarketSignal — Retail Intelligence Platform](https://github.com/itsMacht/MarketSignal-Retail-Intelligence)
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=111827)
+![Excel](https://img.shields.io/badge/Excel-217346?style=flat-square&logo=microsoftexcel&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-336791?style=flat-square&logo=postgresql&logoColor=white)
+![DAX](https://img.shields.io/badge/DAX-122B49?style=flat-square&logo=powerbi&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=081B33)
 
-![MarketSignal dashboard using clearly labelled synthetic portfolio data](marketsignal-dashboard.png)
+## Featured case studies
 
-A **B2B retail-intelligence SaaS platform prototype** for monitoring public retailer, leaflet, brand-website, and social activity.
+### [MarketSignal — Retail Intelligence Platform](https://github.com/itsMacht/marketsignal-portfolio-showcase)
 
-**What it includes:**
+![MarketSignal dashboard with synthetic portfolio data](marketsignal-dashboard.png)
 
-- Automated, source-specific public-data collection with respectful crawl controls
-- Retail prices, promotions, launches, campaigns, availability, and competitor activity
-- PostgreSQL/Supabase data model with historical changes and evidence storage
-- Data-quality gates, confidence scoring, manual review, and immutable audit history
-- KPI dashboards, market activity, share of voice, retailer coverage, and price analysis
-- CSV, HTML, PowerPoint, and weekly leaflet reporting workflows
-- Scheduled GitHub Actions collection and server-side API routes
+A B2B retail-intelligence SaaS prototype for tracking public prices, promotions, campaigns, launches, share of voice, retailer coverage, and reporting workflows.
 
-**Stack:** Next.js, React, TypeScript, PostgreSQL, Supabase, Crawlee, Playwright, Apify, PowerPoint generation, and GitHub Actions.
+`Retail analytics` · `Data quality` · `Automated collection` · `PostgreSQL` · `Dashboards` · `Reporting`
 
-> The screenshot is rendered by the real application interface with browser-only synthetic demonstration records. It does not contain production metrics.
+### [Field Workforce Intelligence Platform](https://github.com/itsMacht/field-workforce-platform-showcase)
 
-### [Cheil MX Attendance — Field Workforce Operations Platform](https://github.com/itsMacht/Cheil-MX-Attendance)
+![Field Workforce Intelligence dashboard with fictional data](cheil-attendance-dashboard.png)
 
-![Attendance Intelligence analyst dashboard](cheil-attendance-dashboard.png)
+A SaaS-style internal operations platform connecting mobile promoter attendance, GPS/photo evidence, shift rules, exception monitoring, Excel exports, and a secure analyst dashboard.
 
-A **B2B internal workforce-operations platform** connecting an Android promoter app with a secure analyst dashboard.
+`Attendance analytics` · `KPI design` · `Data modeling` · `Excel` · `Power BI export` · `Mobile workflow`
 
-**What it includes:**
+## What I bring
 
-- Guided promoter account and store assignment
-- Camera and GPS-supported check-in/check-out evidence
-- Offline-safe mobile queue and automatic cloud synchronization
-- Shift pairing, duration, lateness, missing-event, and location-verification rules
-- Weekly, monthly, store, and promoter filters
-- Attendance KPIs, daily volume, store completion ranking, and detailed records
-- Excel workbooks with embedded evidence and CSV exports for Power BI
-- Supabase authentication, row-level access, private storage, and signed evidence links
+- Weekly reporting pipelines for sales, stock, achievement, target, RRP, **RM data**, promoter planning, and check-in/check-out
+- Power BI dashboards built from scratch with DAX, relationships, measures, filters, and operational drill-downs
+- Excel-based cleaning, reconciliation, quality checks, and repeatable refresh workflows
+- Analytics systems that connect data capture, business rules, dashboards, and stakeholder-ready exports
 
-**Stack:** React, TypeScript, Vite, Capacitor, Android, Supabase, ExcelJS, GPS, camera integration, and offline storage.
-
-> This is best described as a SaaS-style internal platform—not a commercial SaaS business—because it currently targets one organization and does not implement multi-tenant subscriptions or billing.
-
-## Analytics capabilities
-
-- Power BI, DAX, dimensional modeling, dashboard design, and drill-down analysis
-- Excel cleaning, validation, reconciliation, and recurring weekly reporting
-- KPI design, exception monitoring, attendance analytics, and retail intelligence
-- SQL/PostgreSQL data modeling, API-backed reporting, and automated refresh workflows
-- Privacy-aware portfolio presentation using sanitized or synthetic demonstration data
-
-## Product perspective
-
-I focus on the complete decision workflow: how data is captured, cleaned, trusted, modeled, reviewed, visualized, and delivered to the people who need to act on it.
+> Public repositories are presentation-only case studies. Their screenshots use synthetic or fictional data. Full source code, APKs, production datasets, credentials, and company-specific material remain private.
