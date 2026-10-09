@@ -33,6 +33,16 @@ A SaaS-style internal operations platform connecting mobile promoter attendance,
 
 `Attendance analytics` · `KPI design` · `Data modeling` · `Excel` · `Power BI export` · `Mobile workflow`
 
+### [Pocket PC — Your desktop, within reach](https://github.com/itsMacht/pocket-pc-portfolio-showcase)
+
+![Pocket PC Android phone and Windows desktop product visualization](assets/pocket-pc-preview.png)
+
+A private-beta Windows + Android remote-control prototype with live desktop streaming, touchpad and keyboard controls, and shortcuts to PC apps. Includes a simple Start/Stop desktop companion and home/away connection modes.
+
+`Windows + Android` · `Remote control` · `App shortcuts` · `Python` · `Java` · `H.264 streaming`
+
+The hero is an AI-assisted product visualization. The linked case study contains descriptions and demo interface previews; the application source and personal APK remain private.
+
 ## What I bring
 
 - Weekly reporting pipelines for sales, stock, achievement, target, RRP, **RM data**, promoter planning, and check-in/check-out
