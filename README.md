@@ -17,9 +17,9 @@ I focus on the full path from raw weekly files to trusted reporting: **collect �
 
 ## Featured case studies
 
-### [MarketSignal — Retail Intelligence Platform](https://github.com/itsMacht/marketsignal-portfolio-showcase)
+### [Markvue — Retail Intelligence Platform](https://github.com/itsMacht/marketsignal-portfolio-showcase)
 
-![MarketSignal dashboard with synthetic portfolio data](marketsignal-dashboard.png)
+![Markvue dashboard in an isolated portfolio preview](markvue-overview.png)
 
 A B2B retail-intelligence SaaS prototype for tracking public prices, promotions, campaigns, launches, share of voice, retailer coverage, and reporting workflows.
 
